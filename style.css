@@ -21,6 +21,19 @@ font-family: 'Cabin', sans-serif;
   }
 }
 
+.btn-brown {
+    background-color: #082D0F;
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+    margin:10px;
+    border-radius: 4px;
+}
+
+.btn-red a:hover {
+  color: white;
+}
+
 body {
   background-color: #F7FCFF;
 }
@@ -50,6 +63,7 @@ body {
   margin: 0 auto; /* This automatically sets left/right margins */
   background-color: white;
   text-align: center;
+  padding: 20px;
 }
 
 /*.text-center {
