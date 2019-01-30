@@ -1,0 +1,92 @@
+/*font-family: 'Old Standard TT', serif;
+font-family: 'Cabin', sans-serif;
+*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F7FCFF;
+}
+
+.image_circle {
+  border-radius: 50%;
+  width: 150px;
+  border: solid #DBF5FF;
+}
+
+.container {
+  width: 845px;
+  margin: 30px auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.card {
+  width: 845px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  background-color: white;
+  text-align: center;
+}
+
+/*.text-center {
+  text-align: center;
+}*/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #082D0F;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #082D0F;
+}
+
+
+p {
+  font-family: 'Old Standard TT', serif;
+  color: #082D0F;
+  text-align: left;
+  padding-left:  20px;
+  padding-right: 20px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #082D0F;
+
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: #082D0F;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #8F8389;
+}
